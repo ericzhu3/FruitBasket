@@ -1,0 +1,159 @@
+#searchbar{
+    position:fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+}
+
+.store-name{
+    color:rgb(211, 134, 34);
+    position:fixed;
+    margin-top: 8px;
+    top:0;
+    left:40px;
+}
+
+.btn{
+    position: relative;
+}
+
+#home-login{
+    position: fixed;
+    margin-top: 12px;
+    top: 0;
+    right: 90px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#home-login:hover{
+    background-color: rgba(240, 248, 255, 0.479);
+}
+
+#home-register{
+    position: fixed;
+    margin-top: 12px;
+    margin-right: 10px;
+    top: 0;
+    right: 0;
+    border: none;
+    padding: 10px;
+    color: rgb(105, 151, 229);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#home-register:hover{
+    background-color: rgba(240, 248, 255, 0.479);
+}
+
+#cart{
+    position: fixed;
+    margin-top: 13px;
+    margin-right: 120px;
+    top: 0;
+    right: 160px;
+    cursor: pointer;
+}
+
+.header{
+    position: fixed;
+    left:0%;
+    width: 100%;    
+    text-align: center;
+    background-color: rgba(133, 222, 133, 0.9);
+    padding: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+}
+
+.products{
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.product{
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.product .description{
+    text-align: center;
+}
+
+.product:hover{
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.addToCartBtn{
+    background-color: transparent;
+    border: 2px solid black;
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+.addToCartBtn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.welcome-message{
+    position: fixed;
+    text-align: left;
+    max-width: 180px;
+    margin-top: 12px;
+    margin-left: 0px;
+    margin-right: 0px;
+    top: 0;
+    right: 0;
+    border: none;
+    color: rgb(105, 151, 229);
+    border-radius: 10px;
+    line-height: 1.2;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.signOut{
+    position: fixed;
+    margin-top: 12px;
+    top: 0;
+    margin-right: 100px;
+    right: 90px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.signOut:hover{
+    background-color: rgba(240, 248, 255, 0.479);
+}
